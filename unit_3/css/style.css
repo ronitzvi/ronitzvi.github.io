@@ -1,0 +1,31 @@
+body {
+	font-family: helvetica, sans-serif; 
+}
+
+.nav ul {
+  list-style: none;
+  text-align: right;
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 5px;
+  width: 75px;
+  line-height: 50px;
+  font-size: 16px;
+  }
+
+ #bottomnav{
+ 	text-align: left;
+ }
+
+#threefacts li {
+	list-style-type: none;
+}
+
+h1, h3 {
+	text-align: right;
+}
+
+img{
+}
