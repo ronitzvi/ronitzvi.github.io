@@ -1,31 +1,38 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
-	font-family: helvetica, sans-serif; 
+	color:#333;
+	font-family: helvetica, sans-serif;
+	font-size:16px;
 }
 
-.nav ul {
+nav {
   list-style: none;
   text-align: right;
 }
 
-.nav li {
-  display: inline-block;
-  margin-right: 5px;
-  width: 75px;
-  line-height: 50px;
-  font-size: 16px;
-  }
-
- #bottomnav{
- 	text-align: left;
+nav a {
+	color:inherit;
+	display: inline-block;
+	font-size: 16px;
+	padding:1em 2em;
+	text-decoration:none;
+	background: purple;
+}
+footer nav {
+ 	text-align:left;
  }
-
+section { 
+	padding:5em 0;
+}
 #threefacts li {
 	list-style-type: none;
 }
 
-h1, h3 {
+#splash {
+	background: url(../images/bmo_4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 90vh;
+	padding: 10em 0 0;
 	text-align: right;
-}
-
-img{
 }
