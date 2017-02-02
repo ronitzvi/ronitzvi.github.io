@@ -40,7 +40,7 @@ section {
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 90vh;
-	padding: 10em 0 0;
+	padding-top: 20px;
 	text-align: right;
 }
 
@@ -57,4 +57,4 @@ li{
 h1, h3 {
 	margin: 2em;
 	color: #FFFFFF;
-}
+ }
