@@ -13,6 +13,11 @@ body {
 	font-size:16px;
 }
 
+.wrapper {
+width: 1140px;
+margin: 0 auto;
+}
+
 nav {
   list-style: none;
   text-align: right;
@@ -27,11 +32,22 @@ nav a {
 }
 footer nav {
  	text-align:left;
+ 	background-color: skyblue;
+	border: 1px black solid;
+	padding: 20px;
+ }
+ header nav {
+    background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
  }
 section { 
 	padding:5em 0;
 }
 #threefacts li {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
 	list-style-type: none;
 }
 
@@ -44,6 +60,12 @@ section {
 	text-align: right;
 }
 
+#about {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
 p {
 	font-family: "Roboto";
 	font-weight: lighter;
@@ -52,6 +74,7 @@ p {
 li{
 	font-family: "Roboto";
 	font-weight: lighter;
+	display: inline-block;
 }
 
 h1, h3 {
