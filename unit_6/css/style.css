@@ -1,0 +1,118 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Arimo|Lora|Nunito:300|PT+Serif|Playfair+Display');
+</style>
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	color:#333;
+	font-family: Roboto, sans-serif;
+	font-size:16px;
+}
+
+.wrapper {
+width: 1140px;
+margin: 0 auto;
+}
+
+nav {
+  list-style: none;
+  text-align: right;
+}
+
+nav a {
+	color:inherit;
+	display: inline-block;
+	font-size: 16px;
+	padding:1em 2em;
+	text-decoration:none;
+}
+nav a:hover {
+	background-color: #FCB3FC;
+	color: white;
+}
+
+footer nav {
+ 	text-align:left;
+ 	background-color: white;
+	padding: 20px;
+ }
+ header nav {
+    background-color: white;
+	padding: 20px;
+ }
+
+section { 
+	padding: 0;
+}
+#threefacts li {
+	background-color: white;
+	padding: 20px;
+	list-style-type: none;
+	margin: 1em;
+}
+
+#splash {
+	background: url(../images/bmo_4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 90vh;
+	padding-top: 20px;
+	text-align: right;
+}
+
+
+#believeme {
+	float: left;
+	width: 520px;
+}
+
+#picture {
+	float: right;
+	width: 520px;
+	height: 300px;
+}
+
+.column {
+	float: left;
+	width: 46%;
+  	padding: 2%;
+  	display: inline-block;
+	margin: 0;
+}
+
+#about {
+	line-height: 2em;
+}
+
+#signup {
+	background-color: #FCB3FC;
+	text-decoration: none; 
+	margin: 2em;
+	padding: 1em;
+}
+
+p {
+	font-family: "Roboto";
+	font-weight: lighter;
+}
+
+li{
+	font-family: "Roboto";
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+}
+
+h1, h3 {
+	margin: 2em;
+	color: #FFFFFF;
+ }
+
+ h1 {
+ 	font-size: 2em;
+ }
+
