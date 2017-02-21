@@ -1,10 +1,3 @@
-<style>
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
-</style>
-
-<style>
-@import url('https://fonts.googleapis.com/css?family=Arimo|Lora|Nunito:300|PT+Serif|Playfair+Display');
-</style>
 
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
@@ -20,11 +13,10 @@ margin: 0 auto;
 
 nav {
   list-style: none;
-  text-align: right;
 }
 
 nav a {
-	color:inherit;
+	color: #fff;
 	display: inline-block;
 	font-size: 16px;
 	padding:1em 2em;
@@ -41,8 +33,9 @@ footer nav {
 	padding: 20px;
  }
  header nav {
-    background-color: white;
-	padding: 20px;
+    /* background-color: white; */
+    padding: 20px;
+    float: right;
  }
 
 section { 
@@ -50,9 +43,9 @@ section {
 }
 #threefacts li {
 	background-color: white;
-	padding: 20px;
+	padding: 2em;
 	list-style-type: none;
-	margin: 1em;
+	/* margin: 1em; */
 }
 
 #splash {
@@ -73,14 +66,14 @@ section {
 #picture {
 	float: right;
 	width: 520px;
-	height: 300px;
+	/* height: 300px; */
 }
 
 .column {
 	float: left;
-	width: 46%;
-  	padding: 2%;
-  	display: inline-block;
+	width: 66.66%;
+	padding: 2%;
+	display: inline-block;
 	margin: 0;
 }
 
@@ -102,8 +95,8 @@ p {
 
 li{
 	font-family: "Roboto";
-	display: inline-block;
-	width: 25%;
+	float: left;
+	width: 33.33%;
 	text-align: center;
 }
 
@@ -114,5 +107,13 @@ h1, h3 {
 
  h1 {
  	font-size: 2em;
+ 	clear: both;
  }
 
+.clearfix:after {
+	clear:both;
+	display:block;
+	height:0;
+	visibility:hidden;
+	content:"";
+}
