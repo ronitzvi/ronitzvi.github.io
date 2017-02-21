@@ -16,7 +16,6 @@ nav {
 }
 
 nav a {
-	color: #fff;
 	display: inline-block;
 	font-size: 16px;
 	padding:1em 2em;
@@ -78,7 +77,12 @@ section {
 }
 
 #about {
+	
 	line-height: 2em;
+}
+
+#about img {
+	width: 33.33%;
 }
 
 #signup {
@@ -86,6 +90,10 @@ section {
 	text-decoration: none; 
 	margin: 2em;
 	padding: 1em;
+}
+
+.picture2 img {
+	width: 100%;
 }
 
 p {
